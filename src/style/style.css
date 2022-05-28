@@ -13,24 +13,24 @@
 }
 */
 .desktop1149-hero326 {
-    top: 58px;
-    left: 11px;
-    width: 2000px;
-    height: 820px;
-    display: flex;
-    overflow: visible;
-    position: absolute;
-    box-sizing: border-box;
-    align-items: flex-start;
-    border-color: transparent;
-    background-image: url("/playground_assets/41838d09-f0bd-4c7e-b5f0-b5c29cedf284-d49h-900h.undefined");
+    top: 68px;
+        width: 100%;
+        height: 80%;
+        display: flex;
+        overflow: hidden;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        border-color: transparent;
+        background-image: url("../assets/shop-homepage.jpg");
 }
 
 .desktop1149-image {
     top: 0px;
-    left: 0px;
-    width: 1418px;
-    height: 820px;
+    /* left: 0px; */
+    width: 100%;
+    height: 100%;
     position: absolute;
     box-sizing: border-box;
     object-fit: cover;
@@ -39,78 +39,87 @@
 }
 
 .desktop1149-group13223 {
-    top: 159px;
-    left: 209px;
-    width: 999px;
-    height: 502px;
+    /* top: 159px; */
+    /* left: 209px; */
+    width: 70%;
+    height: 50%;
     display: flex;
     position: absolute;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+        -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    /* flex-shrink: 1; */
     border-color: transparent;
 }
 
 .desktop1149-text {
-    top: 143px;
-    left: 0px;
+    /* top: 143px; */
+    /* left: 0px; */
     color: rgba(255, 255, 255, 1);
-    width: 999px;
+    width: inherit;
     height: auto;
     position: absolute;
-    font-size: 96px;
-    align-self: auto;
+    font-size: 70px;
+    align-self: center;
+    border-bottom: ridge;
+    margin-bottom: 0;
     font-style: normal;
     text-align: center;
     font-family: Poppins;
     font-weight: 400px;
-    line-height: 160px;
-    font-stretch: normal;
+    /* line-height: 160px; */
+    /* font-stretch: normal; */
     text-decoration: none;
 }
 
 .desktop1149-text01 {
-    top: 0px;
-    left: 78px;
+    /* top: 0px; */
+    /* left: 78px; */
     color: rgba(255, 255, 255, 1);
-    width: 843px;
+    width: inherit;
     height: auto;
     position: absolute;
-    font-size: 96px;
-    align-self: auto;
-    font-style: normal;
-    text-align: left;
+    font-size: 45px;
+    align-self: center;
+    /* font-style: normal; */
+    text-align: center;
+    top: 20%;
     font-family: Oleo Script Swash Caps;
     font-weight: 400px;
-    line-height: normal;
-    font-stretch: normal;
+    /* line-height: normal; */
+    /* font-stretch: normal; */
     text-decoration: none;
 }
 
 .desktop1149-btn3220 {
     top: 342px;
-    left: 399px;
-    width: 202px;
+    /* left: 399px; */
+    /* width: 202px; */
+    height: 45px;
     display: flex;
     padding: 0 38px;
     overflow: hidden;
     position: absolute;
     box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
     border-color: transparent;
     border-radius: 1000px;
-    background-color: var(--dl-color-default-primary68cc8);
+    background-color: darkred;
 }
 
 .desktop1149-text05 {
     color: rgba(255, 255, 255, 1);
-    height: auto;
-    align-self: auto;
-    text-align: center;
-    line-height: 160px;
-    text-decoration: none;
+        height: auto;
+        align-self: auto;
+        text-align: center;
+        /* line-height: 160px; */
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
 }
 
 .desktop1149-navbar3226 {
@@ -256,28 +265,31 @@
 }
 
 .desktop1149-aboutus33138 {
-    top: 1037px;
-    left: 120px;
-    width: 1166px;
-    height: 488px;
-    display: flex;
-    position: absolute;
-    box-sizing: border-box;
-    align-items: flex-start;
-    border-color: transparent;
+    top: 100%;
+        /* left: 120px; */
+        width: 100%;
+        height: 70%;
+        display: flex;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        border-color: transparent;
 }
 
 .desktop1149-images33135 {
-    top: 0px;
-    left: 0px;
-    width: 568px;
-    height: 488px;
-    display: flex;
-    position: absolute;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
+    /* align-content: center; */
+        /* top: 0px; */
+        /* left: 0px; */
+        width: 568px;
+        height: 488px;
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+        align-items: center;
+        /* flex-shrink: 1; */
+        border-color: transparent;
+        /* left: 30%; */
 }
 
 .desktop1149-image1 {
@@ -314,16 +326,18 @@
 }
 
 .desktop1149-content33137 {
-    top: 18px;
-    left: 698px;
-    width: 468px;
-    height: 452px;
-    display: flex;
-    position: absolute;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
+    /* top: 18px; */
+        /* left: 698px; */
+        width: 568px;
+        height: 488px;
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+        align-items: flex-start;
+        flex-shrink: 1;
+        border-color: transparent;
+        /* right: 30%; */
+        margin-left: 50px;
 }
 
 .desktop1149-title33136 {
@@ -340,21 +354,22 @@
 }
 
 .desktop1149-text16 {
-    top: 0px;
-    left: 0px;
-    color: var(--dl-color-default-darkd8e6e);
-    width: 209px;
-    height: auto;
-    position: absolute;
-    font-size: 48px;
-    align-self: auto;
-    font-style: normal;
-    text-align: center;
-    font-family: Oleo Script Swash Caps;
-    font-weight: 400px;
-    line-height: 160px;
-    font-stretch: normal;
-    text-decoration: none;
+    /* top: 0px; */
+        /* left: 0px; */
+        color: var(--dl-color-default-darkd8e6e);
+        /* width: 209px; */
+        height: auto;
+        position: absolute;
+        font-size: 48px;
+        align-self: left;
+        font-style: normal;
+        text-align: left;
+        font-family: Oleo Script Swash Caps;
+        font-weight: 400px;
+        /* line-height: 160px; */
+        font-stretch: normal;
+        text-decoration: none;
+        border-bottom-style: groove;
 }
 
 .desktop1149-svg {
@@ -392,15 +407,16 @@
 
 .desktop1149-text18 {
     top: 130px;
-    left: 0px;
-    color: rgba(0, 0, 0, 1);
-    width: 468px;
-    height: auto;
-    position: absolute;
-    align-self: auto;
-    text-align: left;
-    line-height: 160px;
-    text-decoration: none;
+        left: 0px;
+        color: rgba(0, 0, 0, 1);
+        width: 468px;
+        height: auto;
+        position: absolute;
+        align-self: auto;
+        text-align: left;
+        /* line-height: 160px; */
+        text-decoration: none;
+        font-size: 23px;
 }
 
 .desktop1149-text19 {
@@ -417,30 +433,43 @@
 }
 
 .desktop1149-services33164 {
-    top: 1583px;
-    left: 0px;
-    width: 1424px;
-    height: 848px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    box-sizing: border-box;
-    align-items: flex-start;
-    border-color: transparent;
-    background-color: var(--dl-color-default-lightd3a6b);
+    top: 180%;
+        /* left: 0px; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow: hidden;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        border-color: transparent;
+}
+
+.sbs-container {
+    /* left: 120px; */
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        border-color: transparent;
 }
 
 .desktop1149-title33139 {
-    top: 19px;
-    left: 191px;
-    width: 1121px;
-    height: 146px;
-    display: flex;
-    position: absolute;
-    box-sizing: border-box;
-    align-items: center;
-    border-color: transparent;
-    flex-direction: column;
+    top: 0;
+        /* left: 191px; */
+        width: 70%;
+        height: 140px;
+        display: flex;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: center;
+        /* border-color: transparent; */
+        flex-direction: column;
+        border-bottom-style: groove;
 }
 
 .desktop1149-text20 {
@@ -460,17 +489,17 @@
 
 .desktop1149-text21 {
     color: rgba(0, 0, 0, 1);
-    width: 1121px;
-    height: auto;
-    font-size: 18px;
-    align-self: auto;
-    font-style: normal;
-    text-align: justified;
-    font-family: Poppins;
-    font-weight: 400px;
-    line-height: 160px;
-    font-stretch: normal;
-    text-decoration: none;
+        /* width: 1121px; */
+        height: auto;
+        font-size: 23px;
+        align-self: auto;
+        font-style: normal;
+        text-align: justified;
+        font-family: Poppins;
+        font-weight: 400px;
+        /* line-height: 160px; */
+        font-stretch: normal;
+        text-decoration: none;
 }
 
 .desktop1149-svg1 {
@@ -479,29 +508,31 @@
 }
 
 .desktop1149-mens-hair-cut33200 {
-    top: 251px;
-    left: 115px;
-    width: 581px;
-    height: 577px;
-    display: flex;
-    position: absolute;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
+    /* top: 251px; */
+        /* left: 115px; */
+        width: 581px;
+        height: 577px;
+        display: flex;
+        position: relative;
+        box-sizing: border-box;
+        align-items: center;
+        /* flex-shrink: 1; */
+        justify-content: center;
+        border-color: transparent;
 }
 
 .desktop1149-text22 {
-    top: 367px;
-    left: 3px;
-    color: rgba(0, 0, 0, 1);
-    width: 578px;
-    height: auto;
-    position: absolute;
-    align-self: auto;
-    text-align: left;
-    line-height: 160px;
-    text-decoration: none;
+    /* top: 367px; */
+        /* left: 3px; */
+        color: rgba(0, 0, 0, 1);
+        width: 578px;
+        height: auto;
+        position: absolute;
+        align-self: auto;
+        text-align: center;
+        /* line-height: 160px; */
+        text-decoration: none;
+        font-size: 20px;
 }
 
 .desktop1149-frame333214 {
@@ -554,21 +585,22 @@
 }
 
 .desktop1149-text24 {
-    top: 290px;
-    left: 0px;
-    color: rgba(0, 0, 0, 1);
-    width: 418px;
-    height: auto;
-    position: absolute;
-    font-size: 64px;
-    align-self: auto;
-    font-style: normal;
-    text-align: center;
-    font-family: Oleo Script Swash Caps;
-    font-weight: 400px;
-    line-height: 160px;
-    font-stretch: normal;
-    text-decoration: none;
+    top: 0;
+        /* left: 0; */
+        color: rgba(0, 0, 0, 1);
+        width: 487px;
+        height: auto;
+        position: absolute;
+        font-size: 48px;
+        align-self: center;
+        font-style: normal;
+        text-align: center;
+        font-family: Oleo Script Swash Caps;
+        font-weight: 400px;
+        /* line-height: 160px; */
+        font-stretch: normal;
+        margin-top: 40px;
+        text-decoration: none;
 }
 
 .desktop1149-frame233194 {
@@ -604,16 +636,17 @@
 }
 
 .desktop1149-womens-hair-cut33201 {
-    top: 252px;
-    left: 712px;
-    width: 600px;
-    height: 577px;
-    display: flex;
-    position: absolute;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
+    /* top: 252px; */
+        /* left: 712px; */
+        width: 581px;
+        height: 577px;
+        display: flex;
+        position: relative;
+        box-sizing: border-box;
+        align-items: center;
+        flex-shrink: 1;
+        justify-content: center;
+        border-color: transparent;
 }
 
 .desktop1149-text26 {
@@ -666,21 +699,22 @@
 }
 
 .desktop1149-text28 {
-    top: 290px;
-    left: 0px;
-    color: rgba(0, 0, 0, 1);
-    width: 487px;
-    height: auto;
-    position: absolute;
-    font-size: 64px;
-    align-self: auto;
-    font-style: normal;
-    text-align: center;
-    font-family: Oleo Script Swash Caps;
-    font-weight: 400px;
-    line-height: 160px;
-    font-stretch: normal;
-    text-decoration: none;
+    top: 0;
+        /* left: 0px; */
+        color: rgba(0, 0, 0, 1);
+        width: 487px;
+        height: auto;
+        position: absolute;
+        font-size: 48px;
+        align-self: center;
+        font-style: normal;
+        text-align: center;
+        font-family: Oleo Script Swash Caps;
+        font-weight: 400px;
+        /* line-height: 160px; */
+        font-stretch: normal;
+        text-decoration: none;
+        margin-top: 40px;
 }
 
 .desktop1149-frame233211 {
