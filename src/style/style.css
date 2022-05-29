@@ -522,30 +522,46 @@
 }
 
 .desktop1149-text22 {
-    /* top: 367px; */
+    top: 100px;
         /* left: 3px; */
         color: rgba(0, 0, 0, 1);
         width: 578px;
-        height: auto;
+        height: fit-content;
         position: absolute;
         align-self: auto;
         text-align: center;
         /* line-height: 160px; */
         text-decoration: none;
         font-size: 20px;
+        left: 0;
 }
 
 .desktop1149-frame333214 {
-    top: 401px;
-    left: 320px;
-    width: 100px;
-    height: 100px;
+    top: 10px;
+        /* left: 320px; */
+        width: 550px;
+        height: auto;
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        box-sizing: border-box;
+        align-items: center;
+        border-color: transparent;
+        box-sizing: border-box;
+}
+
+.desktop1149-frame333219 {
+    top: 10px;
+    /* left: 320px; */
+    width: 550px;
+    height: auto;
     display: flex;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     box-sizing: border-box;
-    align-items: flex-start;
+    align-items: center;
     border-color: transparent;
+    box-sizing: border-box;
 }
 
 .desktop1149-image4 {
@@ -605,34 +621,38 @@
 
 .desktop1149-frame233194 {
     top: 480px;
-    left: 37px;
-    width: 120px;
-    height: 97px;
-    display: flex;
-    padding: 10px;
-    position: absolute;
-    box-sizing: border-box;
-    align-items: center;
-    border-color: transparent;
-    border-radius: 100px;
-    flex-direction: column;
-    justify-content: flex-end;
+        /* left: 37px; */
+        width: fit-content;
+        height: 50px;
+        display: flex;
+        padding: 10px;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: center;
+        background: darkred;
+        border-radius: 50px;
+        flex-direction: column;
+        justify-content: center;
 }
 
 .desktop1149-text25 {
-    color: var(--dl-color-default-primary039f4);
-    height: auto;
-    align-self: auto;
-    text-align: left;
-    line-height: 160px;
-    text-decoration: none;
+    color: white;
+        height: auto;
+        align-self: center;
+        text-align: left;
+        /* line-height: 160px; */
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 13px;
 }
 
 .desktop1149-svg2 {
-    left: 29px;
-    width: 359;
-    height: 197;
-    position: absolute;
+    /* left: 29px; */
+        width: 359;
+        height: 197;
+        position: relative;
+        height: 309px;
+        width: -webkit-fill-available;
 }
 
 .desktop1149-womens-hair-cut33201 {
@@ -650,16 +670,18 @@
 }
 
 .desktop1149-text26 {
-    top: 367px;
-    left: 32px;
-    color: rgba(0, 0, 0, 1);
-    width: 568px;
-    height: auto;
-    position: absolute;
-    align-self: auto;
-    text-align: left;
-    line-height: 160px;
-    text-decoration: none;
+    top: 100px;
+        /* left: 3px; */
+        color: rgba(0, 0, 0, 1);
+        width: 578px;
+        height: fit-content;
+        position: absolute;
+        align-self: auto;
+        text-align: center;
+        /* line-height: 160px; */
+        text-decoration: none;
+        font-size: 20px;
+        left: 0;
 }
 
 .desktop1149-image5 {
@@ -719,27 +741,29 @@
 
 .desktop1149-frame233211 {
     top: 480px;
-    left: 32px;
-    width: 120px;
-    height: 97px;
-    display: flex;
-    padding: 10px;
-    position: absolute;
-    box-sizing: border-box;
-    align-items: center;
-    border-color: transparent;
-    border-radius: 100px;
-    flex-direction: column;
-    justify-content: flex-end;
+        /* left: 37px; */
+        width: fit-content;
+        height: 50px;
+        display: flex;
+        padding: 10px;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: center;
+        background: darkred;
+        border-radius: 50px;
+        flex-direction: column;
+        justify-content: center;
 }
 
 .desktop1149-text29 {
-    color: var(--dl-color-default-primary039f4);
-    height: auto;
-    align-self: auto;
-    text-align: left;
-    line-height: 160px;
-    text-decoration: none;
+    color: white;
+        height: auto;
+        align-self: center;
+        /* text-align: left; */
+        /* line-height: 160px; */
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 13px;
 }
 
 .desktop1149-svg3 {
