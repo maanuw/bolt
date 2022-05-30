@@ -1964,3 +1964,27 @@ footer {
         margin-bottom: 20px;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .desktop1149-mens-hair-cut33200 {
+        margin-top: 250px;
+    }
+
+    .desktop1149-womens-hair-cut33201 {
+        margin-top: 250px;
+    }
+    .desktop1149-services33164 {
+        overflow: visible;
+    }
+    .expertise {
+        top: 300%;
+        overflow: visible;
+    }
+    .sbs-container-2 {
+        margin-top: 30%;
+    }
+    footer {
+        top: 430%;
+    }
+}
