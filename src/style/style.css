@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /*
 .desktop1149-desktop1149 {
     width: 2000px;
@@ -916,29 +921,63 @@
     font-size: 13px;
 }
 
-footer {
+.container{
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
     /* bottom: 0; */
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #111;
-    height: auto;
-    width: 100vw;
-    padding-top: 40px;
-    top: 380%;
-    /* color: grey; */
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: #111;
+   height: auto;
+   width: 100vw;
+   padding-top: 40px;
+   top: 380%;
+   /* color: grey; */
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-content h3{
+  font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-content h3::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
 }
 
 .footer-content {
     display: flex;
     align-items: center;
+    width: 25%;
     justify-content: center;
     flex-direction: column;
     background: darkred;
     text-align: center;
 }
-
 .footer-content h3 {
     font-size: 2.1rem;
     font-weight: 500;
@@ -954,31 +993,11 @@ footer {
     color: #cacdd2;
 }
 
-.footer-bottom {
-    background: #000;
-    width: 100vw;
-    padding: 20px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-
-.footer-bottom p {
-    float: left;
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-}
-
-.footer-bottom p a {
-    color: #44bae8;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.footer-bottom span {
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
+.footer-col-title {
+    font-size: 20px;
+    color: white;
+    border-bottom-style: solid;
+    bottom: auto;
 }
 
 .footer-menu {
@@ -1036,7 +1055,7 @@ footer {
         margin-top: 30%;
     }
 
-    footer {
+    .footer {
         top: 430%;
     }
 }
