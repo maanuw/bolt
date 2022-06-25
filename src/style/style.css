@@ -264,7 +264,7 @@
         padding-right: 20px;
 }
 
-.desktop1149-aboutus33138 {
+.aboutus {
     top: 100%;
         /* left: 120px; */
         width: 100%;
@@ -277,7 +277,7 @@
         border-color: transparent;
 }
 
-.desktop1149-images33135 {
+.aboutus-gallery {
     /* align-content: center; */
         /* top: 0px; */
         /* left: 0px; */
@@ -292,7 +292,7 @@
         /* left: 30%; */
 }
 
-.desktop1149-image1 {
+.aboutus-image1 {
     top: 0px;
     left: 0px;
     width: 269px;
@@ -303,7 +303,7 @@
     border-color: transparent;
 }
 
-.desktop1149-image2 {
+.aboutus-image2 {
     top: 0px;
     left: 299px;
     width: 269px;
@@ -314,7 +314,7 @@
     border-color: transparent;
 }
 
-.desktop1149-image3 {
+.aboutus-image3 {
     top: 259px;
     left: 299px;
     width: 269px;
@@ -325,7 +325,7 @@
     border-color: transparent;
 }
 
-.desktop1149-content33137 {
+.aboutus-content {
     /* top: 18px; */
         /* left: 698px; */
         width: 568px;
@@ -340,7 +340,7 @@
         margin-left: 50px;
 }
 
-.desktop1149-title33136 {
+.aboutus-title {
     top: 0px;
     left: 0px;
     width: 209px;
@@ -353,7 +353,7 @@
     border-color: transparent;
 }
 
-.desktop1149-text16 {
+.aboutus-text {
     /* top: 0px; */
         /* left: 0px; */
         color: var(--dl-color-default-darkd8e6e);
@@ -405,7 +405,7 @@
     text-decoration: none;
 }
 
-.desktop1149-text18 {
+.aboutus-body {
     top: 130px;
         left: 0px;
         color: rgba(0, 0, 0, 1);
@@ -432,7 +432,7 @@
     text-decoration: none;
 }
 
-.desktop1149-services33164 {
+.services {
     top: 180%;
         /* left: 0px; */
         width: 100%;
@@ -485,7 +485,7 @@
         margin-top: 10%;
 }
 
-.desktop1149-title33139 {
+.services-header {
     top: 0;
         /* left: 191px; */
         width: 70%;
@@ -513,7 +513,7 @@
             /* border-bottom-style: groove; */
 }
 
-.desktop1149-text20 {
+.services-title {
     color: var(--dl-color-default-darkd8e6e);
     width: 249px;
     height: auto;
@@ -544,7 +544,7 @@
         border-bottom-style: groove;
 }
 
-.desktop1149-text21 {
+.services-intro {
     color: rgba(0, 0, 0, 1);
         /* width: 1121px; */
         height: auto;
@@ -580,7 +580,7 @@
     height: 1px;
 }
 
-.desktop1149-mens-hair-cut33200 {
+.service-1 {
     /* top: 251px; */
         /* left: 115px; */
         width: 581px;
@@ -608,7 +608,7 @@
     border-color: transparent;
 }
 
-.desktop1149-text22 {
+.service-body-1 {
     top: 100px;
         /* left: 3px; */
         color: rgba(0, 0, 0, 1);
@@ -638,7 +638,7 @@
     left: 0;
 }
 
-.desktop1149-frame333214 {
+.service-picture-frame1 {
     top: 10px;
         /* left: 320px; */
         width: 550px;
@@ -667,7 +667,7 @@
         margin-top: 12%;
 }
 
-.desktop1149-frame333219 {
+.service-picture-frame2 {
     top: 10px;
     /* left: 320px; */
     width: 550px;
@@ -732,7 +732,7 @@
     text-decoration: none;
 }
 
-.desktop1149-text24 {
+.service-title-1 {
     top: 0;
         /* left: 0; */
         color: rgba(0, 0, 0, 1);
@@ -771,7 +771,7 @@
         border-bottom-style: groove;
 }
 
-.desktop1149-frame233194 {
+.service-btn-1 {
     top: 480px;
         /* left: 37px; */
         width: fit-content;
@@ -803,7 +803,7 @@
     justify-content: center;
 }
 
-.desktop1149-text25 {
+.service-btntxt-1 {
     color: white;
         height: auto;
         align-self: center;
@@ -825,7 +825,7 @@
     font-size: 13px;
 }
 
-.desktop1149-svg2 {
+.service-1-image {
     /* left: 29px; */
         width: 359;
         height: 197;
@@ -852,7 +852,7 @@
     width: -webkit-fill-available;
 }
 
-.desktop1149-womens-hair-cut33201 {
+.service-2 {
     /* top: 252px; */
         /* left: 712px; */
         width: 581px;
@@ -880,7 +880,7 @@
     border-color: transparent;
 }
 
-.desktop1149-text26 {
+.service-body-2 {
     top: 100px;
         /* left: 3px; */
         color: rgba(0, 0, 0, 1);
@@ -946,7 +946,7 @@
     text-decoration: none;
 }
 
-.desktop1149-text28 {
+.service-title-2 {
     top: 0;
         /* left: 0px; */
         color: rgba(0, 0, 0, 1);
@@ -985,7 +985,7 @@
         border-bottom-style: groove;
 }
 
-.desktop1149-frame233211 {
+.service-btn-2 {
     top: 480px;
         /* left: 37px; */
         width: fit-content;
@@ -1017,7 +1017,7 @@
     justify-content: center;
 }
 
-.desktop1149-text29 {
+.service-btntxt-2 {
     color: white;
         height: auto;
         align-self: center;
