@@ -505,7 +505,7 @@
     font-size: 23px;
     align-self: auto;
     font-style: normal;
-    text-align: justified;
+    text-align: center;
     font-family: Poppins;
     font-weight: 400px;
     /* line-height: 160px; */
@@ -530,7 +530,7 @@
 }
 
 .service-1 {
-    /* top: 251px; */
+    top: 140px;
     /* left: 115px; */
     width: 581px;
     height: 577px;
@@ -766,7 +766,7 @@
 }
 
 .service-2 {
-    /* top: 252px; */
+    top: 140px;
     /* left: 712px; */
     width: 581px;
     height: 577px;
