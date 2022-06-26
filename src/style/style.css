@@ -132,11 +132,12 @@
     height: 60px;
     display: flex;
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     box-sizing: border-box;
     align-items: center;
     border-color: rgba(20, 19, 19, 1);
     background-color: rgba(20, 19, 19, 1);
+    z-index: 1000;
 }
 
 .logo {
@@ -199,6 +200,17 @@
     font-stretch: normal;
     text-decoration: none;
     padding-right: 20px;
+}
+.optoin-2 a {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:-webkit-any-link  {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .option-3 {
