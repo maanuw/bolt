@@ -18,9 +18,9 @@
 }
 */
 .hero {
-    top: 68px;
+    top: 60px;
     width: 100%;
-    height: 80%;
+    height: 93%;
     display: flex;
     overflow: hidden;
     position: absolute;
@@ -270,7 +270,7 @@
 }
 
 .aboutus {
-    top: 100%;
+    top: 110%;
     /* left: 120px; */
     width: 100%;
     height: 70%;
@@ -392,7 +392,7 @@
 }
 
 .services {
-    top: 180%;
+    top: 185%;
     /* left: 0px; */
     width: 100%;
     height: 100%;
@@ -406,7 +406,7 @@
 }
 
 .expertise {
-    top: 280%;
+    top: 20%;
     /* left: 0px; */
     width: 100%;
     height: 100%;
@@ -923,6 +923,7 @@
 
 .container{
   margin: auto;
+
 }
 
 .row{
@@ -941,8 +942,8 @@
    background: #111;
    height: auto;
    width: 100vw;
-   padding-top: 40px;
-   top: 380%;
+   padding-top:0%;
+   top: 250%;
    /* color: grey; */
 }
 .footer-col{
@@ -1047,7 +1048,7 @@
     }
 
     .expertise {
-        top: 300%;
+        top: 310%;
         overflow: visible;
     }
 
