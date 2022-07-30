@@ -10,7 +10,7 @@ const mensService = new Service('Mens Hairstyle', 100);
 const womensService = new Service('Womens Hairstyle', 150);
 const unisexService = new Service('Unisex Hairstyle', 250);
 
-//Add employees
+//Add employees and their schedule.
 const marionTime = [["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"],["8am-9am", "9am-10am", "10am-11am", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"],["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"],["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"],["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"],["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"],["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"]];
 const marion = new Employee('Marion Alex', marionTime);
 const izrikTime = [["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"],["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"],["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"],["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"],["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"],["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"],["8am-9am", "9am-10am", "10am-11am", "11am-12pm", "12pm-1pm", "1pm-2pm", "3pm-4pm", "4pm-5pm"]];
@@ -21,7 +21,12 @@ const idris = new Employee('Idris Joe', idrisTime);
 
 nextBtn.forEach((button) => {
   button.addEventListener("click", () => {
-    changeStep("next");
+    if (validate()){
+      changeStep("next");
+    }
+    else{
+      form.reset();
+    }
   });
 });
 prevBtn.forEach((button) => {
@@ -33,13 +38,16 @@ prevBtn.forEach((button) => {
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const inputs = [];
-  form.querySelectorAll("input").forEach((input) => {
-    const { name, value } = input;
-    inputs.push({ name, value });
-  });
-  console.log(inputs);
-  form.reset();
-  resetTimeField();
+  if (validateDropdowns()) {
+    form.querySelectorAll("input").forEach((input) => {
+      const { name, value } = input;
+      inputs.push({ name, value });
+    });
+    console.log(inputs)
+    window.alert(inputs[0]["value"] + " " + inputs[1]["value"] +  " : Appointment booked with " + document.getElementById('Stylist').value + " on "  + document.getElementById('day').value + " at " + document.getElementById('time').value + ".");
+    form.reset();
+    resetTimeField();
+  }
 });
 
 function changeStep(btn) {
@@ -61,6 +69,60 @@ function changeStep(btn) {
   steps[index].classList.add("active");
 }
 
+// onclick function to validate form input fields.
+function validate(){
+  var firstName = document.getElementById('firstName');
+  var lastName = document.getElementById('lastName');
+  var email = document.getElementById('email');
+  var phone = document.getElementById('phone');
+
+  var pass = false;
+  var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+
+  //Add check conditions for each variable.
+  if (firstName.value == ""){
+    window.alert("First name cannot be empty!");
+    return false;
+  } else if (lastName.value == "") {
+    window.alert("Last name cannot be empty!");
+    return false;
+  } else if (!(email.value.match(mailformat))) {
+    window.alert("Email format incorrect!");
+    return false;
+  } else if (!(phone.value.match(phoneno))) {
+    window.alert("phone format should be as follows : NNN-NNN-NNNN [N stands for number 0-9].");
+    return false;
+  }
+  //If all passs then this function returns true.
+  return true;
+}
+
+function validateDropdowns(){
+  var service = document.getElementById('Service');
+  var stylist = document.getElementById('Stylist');
+  var time = document.getElementById('time');
+  var day = document.getElementById('day');
+
+  //Add check conditions for each variable.
+  if (service.value == "") {
+    window.alert("Choose a service from the dropdown menu!");
+    return false;
+  } else if (stylist.value == "") {
+    window.alert("Choose a stylist from the dropdown menu!");
+    return false;
+  } else if (day.value == "") {
+    window.alert("Choose a day from the dropdown menu!");
+    return false;
+  } else if (time.value == "") {
+    window.alert("Choose a time from the dropdown menu!");
+    return false;
+  }
+  //If all passs then this function returns true.
+  return true;
+} 
+
+//  onclick function to populate the time dropdown list as per day and for the selected stylist. 
 function getTimeList() {
   var select = document.getElementById('day');
   var day = select.options[select.selectedIndex].value;
@@ -109,6 +171,7 @@ function getTimeList() {
   }
 }
 
+//function to reset time dropdown after user submits form.
 function resetTimeField(){
   var selectTime = document.getElementById('time');
   var length = selectTime.options.length;
